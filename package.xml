@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: package.xml 526 2009-11-11 19:52:05Z TobiasH87 $ -->
+<package name="com.woltlab.community.profile.languageinselectOptions">
+	<packageinformation>
+		<packagename><![CDATA[Language in selectOptions]]></packagename>
+		<packagename language="de"><![CDATA[Language in selectOptions]]></packagename>
+		<packagename language="de-informal"><![CDATA[Language in selectOptions]]></packagename>
+		<packagedescription><![CDATA[With this plugin it is possible to use languagevariables in the profilefields with selectOptions.]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Mit diesem Plugin ist es möglich, Sprachvariablen in Profilfeldern mit selectOptions zu verwenden.]]></packagedescription>
+		<packagedescription language="de-informal"><![CDATA[Mit diesem Plugin ist es möglich, Sprachvariablen in Profilfeldern mit selectOptions zu verwenden.]]></packagedescription>
+		<version>1.0.0</version> <!-- codename: Language in selectOptions -->
+		<packageurl><![CDATA[http://www.community4wcf.de]]></packageurl>
+		<date>2009-11-11</date>
+		<isunique>1</isunique>
+		<standalone>0</standalone>
+		<plugin>com.woltlab.wcf.page.user.profile</plugin>
+	</packageinformation>
+		
+	<licenseinformation>
+		<license><![CDATA[GPL]]></license>
+		<licenseURL><![CDATA[http://www.gnu.org/licenses/gpl.html]]></licenseURL>
+	</licenseinformation>
+	
+	<authorinformation>
+		<author><![CDATA[TobiasH and Sven Kutzner (deixu)]]></author>
+		<authorURL><![CDATA[https://www.woltlab.com/forum/index.php?page=User&userID=1331470]]></authorURL>
+	</authorinformation>
+	
+	<requiredpackages>
+		<!-- WoltLab Community Framework -->
+		<requiredpackage minversion="1.0.10">com.woltlab.wcf</requiredpackage>
+		<!-- User Profile Page -->
+		<requiredpackage>com.woltlab.wcf.page.user.profile</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<!-- files -->
+		<files>files.tar</files>
+	</instructions> 
+	<instructions type="update" fromversion="1.*">
+		<!-- files -->
+		<files>files.tar</files>
+	</instructions>
+</package>
